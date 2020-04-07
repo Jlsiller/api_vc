@@ -12,7 +12,7 @@ app.use(express.json());
 
 //routes
 app.get('/',(req,res) =>{
-    res.send('hello world');
+    res.json({"Title": "Titulo del Json"});
 });
 
 //starting the server
