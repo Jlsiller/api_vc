@@ -4,7 +4,7 @@ const router = Router();
 //routes
 
 router.get('/',(req,res) =>{
-    res.json({"Title": "Titulo del Json"});
+    res.json({"Title": "Estas en /  en routes/index/"});
 });
 
 router.get('/test',(req,res) =>{
